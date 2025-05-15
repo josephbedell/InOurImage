@@ -4,7 +4,7 @@ import sys
 import re
 import os
 
-# Built-in Hebrew to Amino Acid conversion
+# Built-in Hebrew to Amino Acid conversion (final version)
 conversion_table = {
     'א': 'A',
     'ב': 'STOP',
@@ -23,14 +23,14 @@ conversion_table = {
     'ס': 'S',
     'ע': 'I',
     'פ': 'P',
-    'צ': 'Q',
-    'ק': 'C',
+    'צ': 'C',
+    'ק': 'E',
     'ר': 'R',
-    'ש': 'F',
-    'ת': 'E'
+    'ש': 'W',
+    'ת': 'F'
 }
 
-EXPECTED_TORAH_LENGTH = 304805  # Standard Torah letter count (approximate without vowels)
+EXPECTED_TORAH_LENGTH = 304805  # Standard Torah length without vowels (approx)
 
 def usage():
     print(f"""
@@ -43,9 +43,9 @@ Options:
     --max_mismatches N        Allow up to N mismatches (default 0)
     -h, --help                Show this help message
 
-Example:
-    python els_search.py --torah torah_clean.txt --query YIQ --max_mismatches 1
-    python els_search.py --torah torah_clean.txt --query mysequence.fasta
+Notes:
+    - Searches skips from -500 to +500 (excluding 0).
+    - Torah file must contain only Hebrew letters (א–ת).
 """)
     sys.exit(1)
 
@@ -137,12 +137,10 @@ def main():
     search_length = len(search_term)
     torah_length = len(converted_torah)
 
-    max_skip = torah_length // search_length
-    print(f"Auto-calculating skip range: from -{max_skip} to +{max_skip}...")
-
     total_matches = []
 
-    for skip in range(-max_skip, max_skip + 1):
+    print("Searching skips from -500 to +500...")
+    for skip in range(-500, 501):
         if skip == 0:
             continue  # Skip skip=0
         matches = find_els(converted_torah, search_term, skip, max_mismatches)
