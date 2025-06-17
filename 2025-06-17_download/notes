@@ -1,2 +1,9 @@
 # concatentate the chapters, html
-for file in posts/*.html; do echo $file; pandoc -t markdown $file >> InOurImage_2025-06-17.md; done
+for file in posts/*.html; do echo $file; \
+  pandoc -t markdown $file \
+>> InOurImage_2025-06-17.md; done
+
+# Convert to docx
+# then edit chapters, etc by hand
+pandoc -t docx -o - InOurImage_2025-06-17.md \
+>| InOurImage_2025-06-17.docx
