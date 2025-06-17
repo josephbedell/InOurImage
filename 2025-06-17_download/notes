@@ -1,0 +1,2 @@
+# concatentate the chapters, html
+for file in posts/*.html; do echo $file; pandoc -t markdown $file >> InOurImage_2025-06-17.md; done
