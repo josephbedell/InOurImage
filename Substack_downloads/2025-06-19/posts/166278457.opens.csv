@@ -1,0 +1,27 @@
+post_id,timestamp,email,post_type,post_audience,active_subscription,country,city,region,device_type,client_os,client_type,user_agent
+166278457,2025-06-19T06:01:10.561Z,joseph.bedell@gmail.com,newsletter,everyone,false,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T06:22:54.442Z,joseph.bedell@gmail.com,newsletter,everyone,false,NL,,,,,,Mozilla/5.0
+166278457,2025-06-19T06:24:53.224Z,jcschloss@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T06:27:53.184Z,snowmassive@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+166278457,2025-06-19T06:28:32.997Z,mgmcmanus@outlook.com,newsletter,everyone,true,NL,,,,,,Mozilla/5.0
+166278457,2025-06-19T06:37:15.583Z,news4dan@hotmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T06:37:28.332Z,snowmassive@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+166278457,2025-06-19T08:23:24.002Z,yfb888@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T10:03:58.688Z,fmatheny4@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+166278457,2025-06-19T10:28:11.942Z,koushik.rp@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+166278457,2025-06-19T10:29:20.010Z,Karenalta@bellsouth.net,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T11:10:56.684Z,maryam.ghoojaei@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+166278457,2025-06-19T11:10:58.664Z,maryam.ghoojaei@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+166278457,2025-06-19T12:09:06.830Z,jcschloss@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+166278457,2025-06-19T12:20:16.882Z,mmadaras1@earthlink.net,newsletter,everyone,true,US,,,,,,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+166278457,2025-06-19T12:29:02.897Z,Karenalta@bellsouth.net,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Thunderbird/128.11.1
+166278457,2025-06-19T12:37:42.402Z,dianeherring1@yahoo.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T12:37:59.059Z,bigbangcouple0821@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T12:45:52.519Z,Karenalta@bellsouth.net,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:128.0) Gecko/20100101 Thunderbird/128.11.1
+166278457,2025-06-19T12:51:11.308Z,mgmcmanus@outlook.com,newsletter,everyone,true,US,,,,,,"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+166278457,2025-06-19T13:25:17.920Z,reagan.calcari@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T16:51:27.415Z,bbarbazuk@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0
+166278457,2025-06-19T17:21:46.379Z,mmadaras1@earthlink.net,newsletter,everyone,true,US,,,,,,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+166278457,2025-06-19T17:23:06.174Z,mmadaras1@earthlink.net,newsletter,everyone,true,US,,,,,,"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/137.0.0.0 Safari/537.36"
+166278457,2025-06-19T18:51:31.411Z,snowmassive@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
+166278457,2025-06-19T19:00:20.873Z,snowmassive@gmail.com,newsletter,everyone,true,US,,,,,,Mozilla/5.0 (Windows NT 5.1; rv:11.0) Gecko Firefox/11.0 (via ggpht.com GoogleImageProxy)
