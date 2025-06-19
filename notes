@@ -1,1 +1,2 @@
-pandoc -f html -t docx -o InOurImage.Ch1-4.docx *chapter*
+dir=Substack_downloads/2025-06-19/posts
+pandoc -f html -t docx -o InOurImage.Ch1-4.docx $dir/*chapter*
