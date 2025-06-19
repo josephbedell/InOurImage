@@ -1,0 +1,1 @@
+pandoc -f html 165278575.chapter-1-awakening-genesis.html -t docx >>| InOurImage.Ch1-4.docx
